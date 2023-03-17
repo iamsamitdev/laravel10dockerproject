@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
         
     </head>
-    <body>
+    <body class="bg-success">
         <div class="container-fluid text-end bg-dark">
             @if (Route::has('login'))
                 <div>
@@ -34,6 +34,11 @@
         <div>
             <h1>Home Page</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio quod error nihil voluptate quas iure minus officia nam beatae ea nobis unde. Est facere perferendis delectus deserunt asperiores laudantium, pariatur iusto natus provident excepturi, cupiditate iste repellat magnam ducimus distinctio temporibus necessitatibus tempore fugit, adipisci quisquam nostrum! Voluptatibus, ullam quisquam sequi laborum sint molestiae. Repellendus molestias, deleniti repudiandae, mollitia dicta ullam quia possimus sit voluptas perspiciatis similique. Laborum officia neque rerum odio totam consequuntur minima? Inventore in maxime animi nulla quis, corrupti cumque placeat voluptatibus amet, nobis enim dicta repellat. Aperiam modi laborum saepe ex non et iste ab!</p>
+        </div>
+
+        <div>
+            <h2>Edit from fixed bug team</h2>
+            <p>This area edit with fixgug team</p>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
