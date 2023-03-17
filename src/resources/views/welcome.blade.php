@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
         
     </head>
-    <body>
+    <body class="bg-warning">
         <div class="container-fluid text-end bg-dark">
             @if (Route::has('login'))
                 <div>
@@ -31,9 +31,13 @@
 
         </div>
 
-        <div>
+        <div class="container mt-5">
             <h1>Home Page</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio quod error nihil voluptate quas iure minus officia nam beatae ea nobis unde. Est facere perferendis delectus deserunt asperiores laudantium, pariatur iusto natus provident excepturi, cupiditate iste repellat magnam ducimus distinctio temporibus necessitatibus tempore fugit, adipisci quisquam nostrum! Voluptatibus, ullam quisquam sequi laborum sint molestiae. Repellendus molestias, deleniti repudiandae, mollitia dicta ullam quia possimus sit voluptas perspiciatis similique. Laborum officia neque rerum odio totam consequuntur minima? Inventore in maxime animi nulla quis, corrupti cumque placeat voluptatibus amet, nobis enim dicta repellat. Aperiam modi laborum saepe ex non et iste ab!</p>
+
+            <h2 class="mb-3">ตัวอย่างหน้าเว็บไซต์</h2>
+            <p>แก้ไขโดยทีม dev</p>
+
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
